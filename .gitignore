@@ -1,2 +1,41 @@
-.vs/slnx.sqlite
-.vs/PointClusterCounter2D/v17/.wsuo
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore compiled object files
+*.o
+*.obj
+*.lo
+*.la
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+clusterCounter
+
+# Ignore library files
+*.lib
+*.a
+*.so
+*.dylib
+*.dll
+
+# Ignore debugging files
+*.pdb
+*.ilk
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore IDE specific files
+.idea/
+.vs/
+
+# Ignore system-specific files
+*~ 
