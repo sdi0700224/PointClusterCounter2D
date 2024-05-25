@@ -5,4 +5,5 @@ OpenMP is used for parallel computations. A local grid vessel is used for each t
 
 # Known issues
 -Duplicate points are being placed in same cell and same cluster, so count remains correct. No check is made for duplicate points.
+
 -Valgrind may report some memmory leaks that are not real with OpenMP use.
