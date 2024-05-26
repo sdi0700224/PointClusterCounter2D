@@ -6,7 +6,7 @@ OpenMP is used for parallel computations. A local grid vessel is used for each t
 # Known issues
 -Worst case scenario, when distance threshold is big enough for all points to end up in the same cell, remains bad and works only for small inputs.
 
--Duplicate points are being placed in same cell and same cluster, so count remains correct. No check is made for duplicate points. Adding duplicate
+-Duplicate points are being placed in same cell and same cluster, so cluster count remains correct. No check is made for duplicate points. Adding duplicate
  points though, is leading towards the worst case scenario
 
 -Valgrid may report some memory leaks that are not real with OpenMP use.
