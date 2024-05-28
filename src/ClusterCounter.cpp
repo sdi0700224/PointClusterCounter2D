@@ -1,9 +1,9 @@
 #include "ClusterCounter.h"
 #include "UnionFind.h"
-#include <unordered_map>
-#include <omp.h>
-#include <cmath>
 #include <iostream>
+#include <omp.h>
+#include <unordered_map>
+#include <cmath>
 
 struct pair_hash {
     template <class T1, class T2>
